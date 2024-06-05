@@ -1,12 +1,14 @@
+import Button from "./Button.jsx"
 
-const Navbar = () => {
+
+const Navbar = ({label, color}) => {
     return(
         <header>
             <h1>E Commerce</h1>
             <section>
-                <button> Pantalones</button>
-                <button> Camisas </button>
-                <button> Zapatos </button>
+                <Button label={"Mi boton"} color={"yellow"}/>
+                <Button label={"Mi boton 2"} color={"blue"}/>
+                <Button label={"Mi boton 3"} color={"red"}/>
             </section>
         </header>
     )
