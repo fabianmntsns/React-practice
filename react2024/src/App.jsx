@@ -1,5 +1,5 @@
 
-import Counter from './components/Navbar/Counter'
+import Counter from './components/Counter/Counter'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {

@@ -1,14 +1,15 @@
 import Button from "./Button.jsx"
+import styles from "../Navbar/Navbar.module.css"
 
 
-const Navbar = ({label, color}) => {
+const Navbar = ({label}) => {
     return(
-        <header>
-            <h1>E Commerce</h1>
-            <section>
-                <Button label={"Mi boton"} color={"yellow"}/>
-                <Button label={"Mi boton 2"} color={"blue"} />
-                <Button label={"Mi boton 3"} color={"red"}/>
+        <header className={styles.header}>
+            <h1 className={styles.h1}>E Commerce</h1>
+            <section >
+                <Button label={"Samsung"}  />
+                <Button label={"iPhone"}  />
+                <Button label={"Huawei"} />
             </section>
         </header>
     )

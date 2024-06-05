@@ -1,6 +1,9 @@
-const Button = ({label, color}) => {
+import styles from "../Navbar/Navbar.module.css"
+
+
+const Button = ({label}) => {
     return (
-        <button style={{color:color}}>{label}  </button>
+        <button className={styles.button}>{label}  </button>
     )
 }
 
