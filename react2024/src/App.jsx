@@ -1,14 +1,21 @@
 
-import Counter from './components/Counter/Counter'
+
+import Layaout from './components/Layaout/Layaout'
+import ButtonHide from './components/Navbar/ButtonHide'
 import Navbar from './components/Navbar/Navbar'
 
 function App() {
+
  
 
   return (
     <>
       <Navbar />
-      <Counter/>
+      <Layaout title={'titulo del componente'}>
+      <ButtonHide/>
+        <p>Este parrafo se mostrara dentro del componente</p>
+       
+      </Layaout>
     </>
   )
 }
