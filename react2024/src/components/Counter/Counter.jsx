@@ -7,7 +7,10 @@ const Counter = () => {
 
 
     useEffect(() => {
-        document.title= 'Contador '+ count
+        document.title= 'Contador: '+ count
+        return() => {
+            document.title="Titulo Principal"
+        }
     }, [count])
 
     const increment = () => {
